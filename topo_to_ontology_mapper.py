@@ -1,4 +1,7 @@
 # runs with ofctl_rest.py
+# @author: Qianru Zhou
+# @email: chowqianru@gmail.com
+# All rights reserved
 
 from rdflib import Graph, plugin, Namespace, Literal
 import json, rdflib_jsonld
