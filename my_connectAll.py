@@ -1,3 +1,8 @@
+# @author: Qianru Zhou
+# @email: chowqianru@gmail.com
+# all rights reserved
+
+
 import urllib2
 import rdflib
 from rdflib import plugin
