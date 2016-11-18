@@ -8,7 +8,7 @@ from rdflib import plugin
 from rdflib import Namespace
 import requests, os
 
-# Form the SPARQL query string
+# Form the SPARQL query string based on customer's requirement
 qstring = """
 	select ?host ?port ?macAddr
 	where { ?h :connectToPort ?port;
