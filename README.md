@@ -5,6 +5,6 @@ topo_to ontology_mapper.py: A simple .py file to retrieve network element inform
 SPARQL_Engine.py: A demo of how to run SPARQL queries on the RDF graph generated.
 
 my_connectAll.py: Three linked-data APIs:
-  connectAll(): connect all the hosts with each other automatically
-  addARPFlow(): add an ARP flood flow to the switch
-  addFlow(dst, in_port, action_type, to_port): add an flow entry to the switch flow table.
+  1. connectAll(): connect all the hosts with each other automatically
+  2. addARPFlow(): add an ARP flood flow to the switch
+  3. addFlow(dst, in_port, action_type, to_port): add an flow entry to the switch flow table.
